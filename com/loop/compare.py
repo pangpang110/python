@@ -22,7 +22,6 @@ L = [Student('Tim', 99), Student('Bob', 88), Student('Alice', 99)]
 print sorted(L)
 
 
-
 class Student(object):
     def __init__(self, name, score):
         self.name = name
